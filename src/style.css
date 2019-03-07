@@ -1,0 +1,46 @@
+h1,
+p {
+  font-family: Lato;
+}
+
+.user-list {
+  border: 3px solid black;
+  height: 180px;
+  padding: 5px;
+  overflow: auto;
+  max-width: 700px;
+}
+
+.user-list-item {
+  font-size: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.name {
+  font-weight: 600;
+  border-bottom: 3px dashed grey;
+}
+
+.name:hover {
+  background: #e7e7e7;
+}
+
+.username {
+  color: grey;
+}
+
+.user-popup {
+  position: absolute;
+  z-index: 1;
+  background: white;
+  border: 2px solid black;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.user-popup p {
+  margin: 0;
+}
